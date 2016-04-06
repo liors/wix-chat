@@ -7,6 +7,7 @@ class Message extends React.Component {
             <div className='message-entry-box'>
         <textarea
             name='message'
+            className="add-message"
             placeholder='Enter a message...'
             value={this.props.value}
             onChange={this.handleChange.bind(this)}
