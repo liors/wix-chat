@@ -6,6 +6,27 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.min.js"></script>
+    <script src="//static.parastorage.com/services/js-sdk/1.63.0/js/wix.min.js"></script>
+
+    <style wix-style>
+        .app-container {
+            background: {{style.design_backgroundColor color-6}};
+        }
+
+        .add-message::-webkit-input-placeholder {
+            {{style.design_input_placeholder}};
+        }
+
+        .message-entry-box textarea.add-message  {
+            {{style.design_input}};
+        }
+
+        .message-list p.message {
+            background: {{style.design_messageBackground color-11}};
+            {{style.design_messageFont}}
+        }
+    </style>
+
 </head>
 <body>
 <div id="app"></div>
